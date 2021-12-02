@@ -1,6 +1,6 @@
-# GitHubのリポジトリをGitLabへインポートする（コピーする）
+## GitHubのリポジトリをGitLabへインポート(コピー)する方法
 
-## 注）大前提としてGitHub,GitLabに登録しているものとする
+### 注）大前提としてGitHub,GitLabに登録しているものとする
 
 1. gitlabの＋マークから「New Project/repository」を選択する
 2. 左下の「import project」を選択する
