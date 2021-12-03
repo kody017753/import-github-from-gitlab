@@ -1,5 +1,6 @@
 ## GitHubのリポジトリをGitLabへインポート(コピー)する方法
 
+
 ### 注）大前提としてGitHub,GitLabに登録しているものとする
 ---
 
@@ -17,8 +18,19 @@
 ---
 #### 5. パスワードを聞かれたらGitHubのパスワードを入力する
 ---
-#### 6. GitHub　のリポジトリへのアクセスを認証すると、インポートできるリポジトリの一覧が表示される。
----
+#### 6. GitHubのリポジトリへのアクセスを認証すると、インポートできるリポジトリの一覧が表示される。
+
  すべてのリポジトリを一括でインポートする場合は、「①Import リポジトリの数 repositories」をクリック、特定のリポジトリのみをインポートする場合は、対象リポジトリの「②Import」をクリックする。
 ![](https://user-images.githubusercontent.com/92492715/144373612-fe8a4938-48cf-4187-a6d3-fbae5fb435df.png "")
 
+①を選択すると注意書きのようなものが表示されるが気にせず「import」
+![](https://user-images.githubusercontent.com/92492715/144523316-394360e3-e292-4f8f-88f5-9fc3d7292560.png)
+
+inportを進めると以下のような表示に。
+
+![](https://user-images.githubusercontent.com/92492715/144524122-1c078a7e-aa90-4e73-b290-d46c75c6b089.png)
+
+* 「Complete」・・・import済み
+* 「Not started」・・・インポート未実施
+* 「Importing...」・・・インポート中
+* 「Go to project」・・・インポート済みのリポジトリを開く
